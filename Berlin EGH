@@ -1,0 +1,7 @@
+echo "# Berlin-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/berlin29ke/Berlin-.git
+git push -u origin main
